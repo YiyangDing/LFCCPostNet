@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Post-processed_VC_demo</title>
+<style type="text/css">
+</style></head>
+<body>
+<h2><strong>Audio Samples from "Adversarial Post-Processing of Voice Conversion against Spoofing Detection</strong>"</h2>
+<h3>Paper:</h3>
+<p> Adversarial Post-Processing of Voice Conversion against Spoofing Detection</a> (Submitted to 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP))</p>
+
+<h3>Authors: </h3>
+Yi-Yang Ding, Jing-Xuan Zhang, Li-Juan Liu, Yuan Jiang, Zhen-Hua Ling
+
+<h3>Abstract: </h3>
+With the development of voice conversion techniques, anti-spoofing methods have received more and more attention recently.
+State-of-the-art spoofing detectors can distinguish converted utterances from natural ones with high accuracy.
+This paper proposes a method that improves the ability of voice conversion models against spoofing detection by post-processing the converted speech using a neural network.
+The network is built based on long short-term memories (LSTM) and aims to reduce the distance between the linear frequency cepstrum coefficients (LFCC) of converted utterances and natural references.
+In our experiments, the SAS dataset was adopted to construct the anti-spoofing system, and the VCTK dataset was used to build voice conversion models.
+Experimental results show that our proposed method can reduce the detection rate of the anti-spoofing system significantly without
+losing subjective performance of converted speech.
+<p>&nbsp;</p>
+<hr>
+<h3>&nbsp;</h3>
+<h3> Comparsion of before and after post-processing for four group speaker pairs </h3
+<p>&nbsp;</p>
+<table width="763" border="1">
+  <tbody><tr>
+    <td width="120" nowrap="nowrap">Speaker pair</td>
+    <td width="120" nowrap="nowrap">Source</td>
+    <td width="120" nowrap="nowrap">Before</td>
+    <td width="120" nowrap="nowrap">After</td>
+    <td width="120" nowrap="nowrap">Target</td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap" rowspan='2'>M2_M1</td>
+    <td><audio controls="">
+        <source src="wav/M2/p284_393.wav" type="audio/wav">
+    </audio></td>
+    <td><audio controls="">
+        <source src="wav/M2_M1/before/gen_feat_007.wav" type="audio/wav">
+    </audio></td>
+    <td><audio controls="">
+        <source src="wav/M2_M1/after/gen_spc_007.wav" type="audio/wav">
+    </audio></td>
+    <td><audio controls="">
+        <source src="wav/M1/p275_411.wav" type="audio/wav">
+    </audio></td>
+  </tr>
+  <tr>
+    <td><audio controls="">
+        <source src="wav/M2/p284_397.wav" type="audio/wav">
+    </audio></td>
+    <td><audio controls="">
+        <source src="wav/M2_M1/before/gen_feat_011.wav" type="audio/wav">
+    </audio></td>
+    <td><audio controls="">
+        <source src="wav/M2_M1/after/gen_spc_011.wav" type="audio/wav">
+    </audio></td>
+    <td><audio controls="">
+        <source src="wav/M1/p275_422.wav" type="audio/wav">
+    </audio></td>
+  </tr>
+</tbody></table>
+<p>&nbsp;</p>
+
+<table width="763" border="1">
+  <tbody><tr>
+    <td width="120" nowrap="nowrap">Speaker pair</td>
+    <td width="120" nowrap="nowrap">Source</td>
+    <td width="120" nowrap="nowrap">Before</td>
+    <td width="120" nowrap="nowrap">After</td>
+    <td width="120" nowrap="nowrap">Target</td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap" rowspan='2'>M2_F1</td>
+    <td><audio controls="">
+        <source src="wav/M2/p284_401.wav" type="audio/wav">
+    </audio></td>
+    <td><audio controls="">
+        <source src="wav/M2_F1/before/gen_feat_015.wav" type="audio/wav">
+    </audio></td>
+    <td><audio controls="">
+        <source src="wav/M2_F1/after/gen_spc_015.wav" type="audio/wav">
+    </audio></td>
+    <td><audio controls="">
+        <source src="wav/F1/p283_448.wav" type="audio/wav">
+    </audio></td>
+  </tr>
+  <tr>
+    <td><audio controls="">
+        <source src="wav/M2/p284_415.wav" type="audio/wav">
+    </audio></td>
+    <td><audio controls="">
+        <source src="wav/M2_F1/before/gen_feat_029.wav" type="audio/wav">
+    </audio></td>
+    <td><audio controls="">
+        <source src="wav/M2_F1/after/gen_spc_029.wav" type="audio/wav">
+    </audio></td>
+    <td><audio controls="">
+        <source src="wav/F1/p283_460.wav" type="audio/wav">
+    </audio></td>
+  </tr>
+</tbody></table>
+<p>&nbsp;</p>
+
+<table width="763" border="1">
+  <tbody><tr>
+    <td width="120" nowrap="nowrap">Speaker pair</td>
+    <td width="120" nowrap="nowrap">Source</td>
+    <td width="120" nowrap="nowrap">Before</td>
+    <td width="120" nowrap="nowrap">After</td>
+    <td width="120" nowrap="nowrap">Target</td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap" rowspan='2'>F2_M1</td>
+    <td><audio controls="">
+        <source src="wav/F2/p288_385.wav" type="audio/wav">
+    </audio></td>
+    <td><audio controls="">
+        <source src="wav/F2_M1/before/gen_feat_010.wav" type="audio/wav">
+    </audio></td>
+    <td><audio controls="">
+        <source src="wav/F2_M1/after/gen_spc_010.wav" type="audio/wav">
+    </audio></td>
+    <td><audio controls="">
+        <source src="wav/M1/p275_411.wav" type="audio/wav">
+    </audio></td>
+  </tr>
+  <tr>
+    <td><audio controls="">
+        <source src="wav/F2/p288_411.wav" type="audio/wav">
+    </audio></td>
+    <td><audio controls="">
+        <source src="wav/F2_M1/before/gen_feat_036.wav" type="audio/wav">
+    </audio></td>
+    <td><audio controls="">
+        <source src="wav/F2_M1/after/gen_spc_036.wav" type="audio/wav">
+    </audio></td>
+    <td><audio controls="">
+        <source src="wav/M1/p275_422.wav" type="audio/wav">
+    </audio></td>
+  </tr>
+</tbody></table>
+<p>&nbsp;</p>
+
+<table width="763" border="1">
+  <tbody><tr>
+    <td width="120" nowrap="nowrap">Speaker pair</td>
+    <td width="120" nowrap="nowrap">Source</td>
+    <td width="120" nowrap="nowrap">Before</td>
+    <td width="120" nowrap="nowrap">After</td>
+    <td width="120" nowrap="nowrap">Target</td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap" rowspan='2'>F2_F1</td>
+    <td><audio controls="">
+        <source src="wav/F2/p288_380.wav" type="audio/wav">
+    </audio></td>
+    <td><audio controls="">
+        <source src="wav/F2_F1/before/gen_feat_005.wav" type="audio/wav">
+    </audio></td>
+    <td><audio controls="">
+        <source src="wav/F2_F1/after/gen_spc_005.wav" type="audio/wav">
+    </audio></td>
+    <td><audio controls="">
+        <source src="wav/F1/p283_448.wav" type="audio/wav">
+    </audio></td>
+  </tr>
+  <tr>
+    <td><audio controls="">
+        <source src="wav/F2/p288_407.wav" type="audio/wav">
+    </audio></td>
+    <td><audio controls="">
+        <source src="wav/F2_F1/before/gen_feat_032.wav" type="audio/wav">
+    </audio></td>
+    <td><audio controls="">
+        <source src="wav/F2_F1/after/gen_spc_032.wav" type="audio/wav">
+    </audio></td>
+    <td><audio controls="">
+        <source src="wav/F1/p283_460.wav" type="audio/wav">
+    </audio></td>
+  </tr>
+</tbody></table>
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+
+</body></html>
